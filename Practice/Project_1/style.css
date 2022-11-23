@@ -1,0 +1,86 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* nav container */
+
+.nav_container {
+    display: block;
+    background-color: rgb(202, 150, 17);
+}
+
+/* navbar css */
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+
+.navbar li a:active {
+    color: rgb(0, 0, 213);
+}
+
+.navbar li a:hover {
+    color: rgb(239, 204, 116)
+}
+
+/* left css */
+.left {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    display: inline-block;
+    color: black;
+}
+
+.left img {
+    /* filter: invert(100%); */
+    padding: 0px 0px;
+    width: 40px;
+    height: 40px;
+
+}
+
+/* middle css */
+.mid {
+    top: 10px;
+    margin: 0px auto;
+    display: block;
+    width: 50%;
+}
+
+/* right css */
+.right {
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    display: inline-block;
+}
+
+.btn {
+    border: 0px;
+    border-radius: 50%;
+}
+
+#img_btn {
+    width: 18px;
+    height: 18px;
+}
+
+#search {
+    padding: 2px 2px;
+    height: 18px;
+    border-radius: 20px;
+}

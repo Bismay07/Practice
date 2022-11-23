@@ -1,0 +1,48 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            height: 150px;
+            width: 100%;
+            border: 2px solid rgb(64, 64, 64);
+            background-color: rgb(64, 64, 64);
+        }
+        .left{
+            border: 2px solid red;
+            padding:15px 50px ;
+            color: rgb(174, 172, 172);
+            display: inline;
+            top: 15px;
+            width: 20%;
+        }
+        .right{
+            overflow: auto;
+            border: 2px solid red;
+            display: inline;
+            top: 15px;
+            right: 2px;
+            width: 80%;
+            justify-content: left;
+        }
+        .right li{
+            display: inline;
+            list-style-type: none;
+        }
+        .right li a{
+            float: left;
+            text-decoration:none;
+            padding: 20px;
+            color: white;
+
+        }
+
+
+        ---------------------------------------------------------------
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LINKS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>

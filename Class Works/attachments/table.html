@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to ComputerScience Workshop 1</h1>
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bismay Bibhu Prakash</td>
+                    <td>30/09/2022</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Bismay Bibhu Prakash</td>
+                    <td>01/10/2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>If we do 5 programs in 3 weeks in labs we complete
+        <span id="result"></span> programs
+    </p>
+</body>
+<script>
+    var labs = 5;
+    var weeks = 3;
+    var totalprograms = labs * weeks;
+    document.getElementById("result").innerHTML = totalprograms;
+</script>
+
+</html>
